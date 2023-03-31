@@ -1,0 +1,28 @@
+
+======== DIAGNOSTICOPHP ========
+
+DiagnosticoPHP corresponde a una evaluación para el desarrollo de un sistema de votación.
+
+Pasos para su instalación:
+
+Puedes descargar la carpeta directamente o clonar el repositorio,
+pero debes tener en cuenta lo siguiente:
+
+Dentro del directorio "config" están los archivos de configuración generales,
+
+ config.php : almacena los datos de conexión a la base de datos, usuario, password y el nombre de la 
+              base de datos.
+ 
+ config_public.php: almacena la URL base del sistema, si se modifica el nombre la carpeta general, se tiene que 
+                    actualizar el acceso desde este lugar.
+
+ Conexion.php : clase que permite la conexión con la base de datos.
+  
+ PHP v8.2.0
+ MySQL v8.2.0
+ 
+ Testeado en Mozilla v111.0.1
+
+ Una vez verificado lo anterior, cargar desde la url configurada en "config_public.php" e indicar index.php y listo!
+
+
